@@ -1,0 +1,137 @@
+{
+  "presets": [
+    {
+      "id": 0,
+      "description": "test 0, kropka dobrze, problem z drewnem przy włączaniu światła, jest odbicie widoczne",
+      "morph_kernel_size": 9,
+      "morph_open_iter": 3,
+      "morph_close_iter": 5,
+      "min_moment_area": 2000,
+      "hsv_red1_lower": [0,   120, 70],
+      "hsv_red1_upper": [10,  255, 255],
+      "hsv_red2_lower": [160, 120, 70],
+      "hsv_red2_upper": [180, 255, 255]
+    },
+    {
+      "id": 1,
+      "description": "test 1, tragedia nie polecam",
+      "morph_kernel_size": 10,
+      "morph_open_iter": 10,
+      "morph_close_iter": 10,
+      "min_moment_area": 200,
+      "hsv_red1_lower": [0,   120, 70],
+      "hsv_red1_upper": [10,  255, 255],
+      "hsv_red2_lower": [160, 120, 70],
+      "hsv_red2_upper": [180, 255, 255]
+    },
+    {
+      "id": 2,
+      "description": "minimalne problemy na krawwędziach, kropka ucieka przy włączaniu światła",
+      "morph_kernel_size": 3,
+      "morph_open_iter": 1,
+      "morph_close_iter": 2,
+      "min_moment_area": 100,
+      "hsv_red1_lower": [0,   120, 70],
+      "hsv_red1_upper": [10,  255, 255],
+      "hsv_red2_lower": [160, 120, 70],
+      "hsv_red2_upper": [180, 255, 255]
+    },
+    {
+      "id": 3,
+      "description": "za duże koło i problemy z drewnem",
+      "morph_kernel_size": 3,
+      "morph_open_iter": 1,
+      "morph_close_iter": 2,
+      "min_moment_area": 50,
+      "hsv_red1_lower": [0,   120, 70],
+      "hsv_red1_upper": [10,  255, 255],
+      "hsv_red2_lower": [160, 120, 70],
+      "hsv_red2_upper": [180, 255, 255]
+    },
+    {
+      "id": 4,
+      "description": "czarne plamy przy ciemnym świetle",
+      "morph_kernel_size": 1,
+      "morph_open_iter": 7,
+      "morph_close_iter": 7,
+      "min_moment_area": 5,
+      "hsv_red1_lower": [0,   150, 100],
+      "hsv_red1_upper": [5,  255, 255],
+      "hsv_red2_lower": [175, 150, 100],
+      "hsv_red2_upper": [200, 255, 255]
+    },
+        {
+      "id": 5,
+      "description": "wychodzi z klikania",
+      "morph_kernel_size": 5,
+      "morph_open_iter": 11,
+      "morph_close_iter": 16,
+      "min_moment_area": 10,
+      "hsv_red1_lower": [0,   140, 93],
+      "hsv_red1_upper": [5,  250, 225],
+      "hsv_red2_lower": [170, 170, 100],
+      "hsv_red2_upper": [180, 220, 200]
+    },
+         {
+      "id": 6,
+      "description": "best, so far",
+      "morph_kernel_size": 3,
+      "morph_open_iter": 3,
+      "morph_close_iter": 7,
+      "min_moment_area": 16,
+      "hsv_red1_lower": [0,   140, 93],
+      "hsv_red1_upper": [5,  250, 225],
+      "hsv_red2_lower": [170, 170, 100],
+      "hsv_red2_upper": [180, 220, 200]
+    },
+
+             {
+      "id": 7,
+      "description": "czarne plamy w środku",
+      "morph_kernel_size": 3,
+      "morph_open_iter": 3,
+      "morph_close_iter": 7,
+      "min_moment_area": 16,
+      "hsv_red1_lower": [0,   145, 93],
+      "hsv_red1_upper": [5,  250, 225],
+      "hsv_red2_lower": [170, 175, 100],
+      "hsv_red2_upper": [180, 220, 200]
+    },
+                {
+      "id": 8,
+      "description": "ok",
+      "morph_kernel_size": 9,
+      "morph_open_iter": 2,
+      "morph_close_iter": 4,
+      "min_moment_area": 20,
+      "hsv_red1_lower": [0,   130, 100],
+      "hsv_red1_upper": [5,  255, 225],
+      "hsv_red2_lower": [165, 130, 40],
+      "hsv_red2_upper": [180, 255, 225]
+    },
+     {
+      "id": 9,
+      "description": "połączenie 4 i 8",
+      "morph_kernel_size": 9,
+      "morph_open_iter": 3,
+      "morph_close_iter": 9,
+      "min_moment_area": 20,
+      "hsv_red1_lower": [0,   130, 80],
+      "hsv_red1_upper": [5,  255, 255],
+      "hsv_red2_lower": [165, 130, 100],
+      "hsv_red2_upper": [180, 255, 255]
+    },
+         {
+      "id": 10,
+      "description": "mniej plam kiedy zoom",
+      "morph_kernel_size": 9,
+      "morph_open_iter": 3,
+      "morph_close_iter": 9,
+      "min_moment_area": 20,
+      "hsv_red1_lower": [0,   130, 80],
+      "hsv_red1_upper": [5,  255, 255],
+      "hsv_red2_lower": [165, 130, 60],
+      "hsv_red2_upper": [180, 255, 255]
+    }
+  ]
+}
