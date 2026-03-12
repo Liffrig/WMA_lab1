@@ -1,5 +1,3 @@
----
-
 ## Dobór parametrów w morph_params.json
 
 Parametry dobierano iteracyjnie na podstawie obserwacji nagrania. Używany preset to **id=10**.
@@ -36,7 +34,8 @@ Detekcja czerwonego obiektu  w nagraniu wideo przy użyciu segmentacji w przestr
 - `lab1_object_detection.py` – główny skrypt detekcji obiektu
 - `morph_params.json` – zestawy parametrów HSV i morfologicznych
 
----
+
+### Użycie skryptów
 
 ## hsv_picker.py
 
