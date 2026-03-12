@@ -51,7 +51,7 @@ def clean_mask(mask: np.ndarray,
 
 def find_object(mask: np.ndarray, min_area: float):
     M = cv2.moments(mask)
-    if M["m00"] < min_area:
+    if M["m00"] / 255.0 < min_area:
         return None
 
     cx = int(M["m10"] / M["m00"])
